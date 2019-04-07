@@ -1,0 +1,59 @@
+<table id="fixlgTb" class="table"></table>
+
+<div class="btn-group" id="tools">
+	<button class="btn btn-primary" onclick="addfixlg()">添加</button>
+	<button class="btn btn-success" onclick="secfixlg()">修改</button>
+	<button class="btn btn-warning" onclick="delfixlg()">删除</button>
+</div>
+</div>
+<div class="modal fade" id="fixlgModal">
+	<div class="modal-dialog">
+	 <div class="modal-content">
+	     <div class="modal-header">
+	     	<div class="modal-title" id="fixlgTitle"></div>
+	     </div>
+	     <div class="modal-body">
+	     	<form id="fixlgForm">
+	     		<div class="form-group">
+	     			<label for="id" class="col-md-3 col-md-offset-2">维修编号</label>
+	     			<input type="text" name="id" id="id"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="bid" class="col-md-3 col-md-offset-2">维修车辆</label>
+	     			<select id="bid" name="bid"></select>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="driverid" class="col-md-3 col-md-offset-2">司机</label>
+	     			<select id="driverid" name="driverid"></select>
+	     		</div>
+	     	<div class="form-group">
+	     			<label for="place" class="col-md-3 col-md-offset-2">外部维修厂</label>
+	     			<input type="text" name="place" id="place"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="cost" class="col-md-3 col-md-offset-2">维修费用</label>
+	     			<input type="text" name="cost" id="cost"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="partName" class="col-md-3 col-md-offset-2">内部零件名称</label>
+	     			<select id="partName" name="partName"></select>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="number" class="col-md-3 col-md-offset-2">内部零件个数</label>
+	     			<input type="text" name="number" id="number"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="time" class="col-md-3 col-md-offset-2">维修时间</label>
+	     			<input type="date" name="time" id="time"/>
+	     		</div>
+	     	</form>
+	     </div>
+	     <div class="modal-footer">
+	     	<button class="btn btn-default" data-dismiss="modal">关闭</button>
+	     	<button class="btn btn-default" onclick="sub()">确定</button>
+	     </div>
+	 </div>
+	</div>
+</div>
+
+<script src="../js/fixlg.js"></script>

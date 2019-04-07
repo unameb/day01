@@ -1,0 +1,10 @@
+[
+   {"id":32732,"road":"175路","owner":"天津公交","state":"出车","number":"津A2343"},
+   {"id":33442,"road":"638路","owner":"天津公交","state":"可用","number":"津A4546"},
+   {"id":36556,"road":"707路","owner":"天津公交","state":"维修","number":"津A167"},
+   {"id":87686,"road":"700路","owner":"天津公交","state":"出车","number":"津A8789"},
+   {"id":66557,"road":"831路","owner":"天津公交","state":"出车","number":"津A9087"},
+   {"id":34345,"road":"1路","owner":"天津公交","state":"维修","number":"津A6767"},
+   {"id":12555,"road":"175路","owner":"天津公交","state":"可用","number":"津A6766"},
+   {"id":79878,"road":"175路","owner":"天津公交","state":"出车","number":"津A3456"}
+]

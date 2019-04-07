@@ -1,0 +1,35 @@
+<table id="gassumTb" class="table"></table>
+
+<div id="tools" class="btn-group">
+	<button class="btn btn-primary" onclick="addgassum()">添加</button>
+	<button class="btn btn-success" onclick="selectgassum()">修改</button>
+	<button class="btn btn-warning" onclick="delgassum()">删除</button>
+</div>
+<!--模态框-->
+<div class="modal fade" id="gassumModal"> 
+    <div class="modal-dialog">
+    	<div class="modal-content">
+    		<div class="modal-header">
+    			<div class="modal-title" id="gassumTitle"></div>
+    		</div>
+    		<div class="modal-body" >
+    			<form id="gassumForm">
+    				<div class="form-group">
+    					<label for="id" class="col-md-3 col-md-offset-2" >车辆编号</label>
+    					<input type="text" name="id" id="id" />
+    				</div>
+    				<div class="form-group">
+    					<label for="gasCost" class="col-md-3 col-md-offset-2">加油总支出</label>
+    					<input type="text" name="Cost" id="gasCost" />
+    				</div>
+    			</form>
+    		</div>
+    		<div class="modal-footer">
+    			<button class="btn btn-default" data-dismiss="modal">关闭</button>
+    			<button class="btn btn-default" onclick="sub()">确定</button>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+<script src="../js/gassum.js"></script>

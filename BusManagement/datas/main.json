@@ -1,0 +1,96 @@
+[
+{ "id":1,
+   "title":"业务管理",
+   "sub":[
+   {  "id":11,
+       "title":"线路管理",
+       "path":"road.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   },
+   {  "id":12,
+       "title":"排班管理",
+       "path":"turn.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   },
+   {  "id":13,
+       "title":"回车登记",
+       "path":"back.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   }
+   ]
+},
+
+{ "id":2,
+   "title":"车辆管理",
+   "sub":[
+   {  "id":21,
+       "title":"车辆登记",
+       "path":"buslg.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   },
+   {  "id":22,
+       "title":"维修登记",
+       "path":"fixlg.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   },
+   {  "id":23,
+       "title":"配件采购",
+       "path":"buy.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   },
+   {  "id":24,
+       "title":"配件库存",
+       "path":"stock.html",
+       "icon":"glyphicon glyphicon-menu-hamburger"
+   }
+   ]
+},
+{
+   "id":3,
+   "title":"员工管理",
+   "sub":[
+   { "id":31,
+     "title":"员工信息",
+     "path":"info.html",
+     "icon":"glyphicon glyphicon-user"
+   }
+   ]
+},
+{
+   "id":4,
+   "title":"油卡管理",
+   "sub":[
+   { "id":41,
+     "title":"加油登记",
+     "path":"gas.html",
+     "icon":"glyphicon glyphicon-filter"
+   }
+   ]
+},
+{ "id":5,
+   "title":"费用管理",
+   "sub":[
+   {  "id":51,
+       "title":"采购结算",
+       "path":"buysum.html",
+       "icon":"glyphicon glyphicon-usd"
+   },
+   {  "id":52,
+       "title":"加油结算",
+       "path":"gassum.html",
+       "icon":"glyphicon glyphicon-usd"
+   },
+   {  "id":53,
+       "title":"维修结算",
+       "path":"fixsum.html",
+       "icon":"glyphicon glyphicon-usd"
+   },
+   {  "id":54,
+       "title":"应付结算单",
+       "path":"allsum.html",
+       "icon":"glyphicon glyphicon-usd"
+   }
+   ]
+}
+
+]

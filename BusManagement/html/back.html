@@ -1,0 +1,54 @@
+<table id="backTb" class="table"></table>
+
+<div   class="btn-group" id="tools">
+	<button class="btn btn-primary" onclick="addback()">添加</button>
+	<button class="btn btn-success" onclick="secback()">修改</button>
+	<button class="btn btn-warning" onclick="delback()">删除</button>
+</div>
+</div>
+<div class="modal fade" id="backModal">
+	<div class="modal-dialog">
+	 <div class="modal-content">
+	     <div class="modal-header">
+	     	<div class="modal-title" id="backTitle"></div>
+	     </div>
+	     <div class="modal-body">
+	     	<form id="backForm">
+	     		<div class="form-group">
+	     			<label for="id" class="col-md-2 col-md-offset-2">登记编号</label>
+	     			<input type="text" name="id" id="id" />
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="id" class="col-md-2 col-md-offset-2">车辆编号</label>
+	     			<select id="bid" name="bid"></select>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="id" class="col-md-2 col-md-offset-2">司机</label>
+	     			<select id="did" name="did"></select>
+	     		</div>
+	     	<div class="form-group">
+	     			<label for="income" class="col-md-2 col-md-offset-2">收入</label>
+	     			<input type="text" name="income" id="income"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="consumption" class="col-md-2 col-md-offset-2">耗油量</label>
+	     			<input type="text" name="consumption" id="consumption"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="run" class="col-md-2 col-md-offset-2">当日里程</label>
+	     			<input type="text" name="run" id="run"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="run" class="col-md-2 col-md-offset-2">登记时间</label>
+	     			<input type="date" name="time" id="time"/>
+	     		</div>
+	     	</form>
+	     </div>
+	     <div class="modal-footer">
+	     	<button class="btn btn-default" data-dismiss="modal">关闭</button>
+	     	<button class="btn btn-default" onclick="sub()">确定</button>
+	     </div>
+	 </div>
+	</div>
+</div>
+<script src="../js/back.js"></script>

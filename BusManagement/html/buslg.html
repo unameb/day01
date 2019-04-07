@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+
+<table id="buslgTb" class="table"></table>
+
+<div   class="btn-group" id="tools">
+	<button class="btn btn-primary" onclick="addbuslg()">添加</button>
+	<button class="btn btn-success" onclick="secbuslg()">修改</button>
+	<button class="btn btn-warning" onclick="delbuslg()">删除</button>
+</div>
+</div>
+<div class="modal fade" id="buslgModal">
+	<div class="modal-dialog">
+	 <div class="modal-content">
+	     <div class="modal-header">
+	     	<div class="modal-title" id="buslgTitle"></div>
+	     </div>
+	     <div class="modal-body">
+	     	<form id="buslgForm">
+	     		<div class="form-group">
+	     			<label for="id" class="col-md-2 col-md-offset-2">车辆编号</label>
+	     			<input type="text" name="id" id="id" />
+	     		</div>
+	     	<div class="form-group">
+	     			<label for="road" class="col-md-2 col-md-offset-2">所属线路</label>
+	     			<select id="rid" name="rid"></select>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="owner" class="col-md-2 col-md-offset-2">车辆单位</label>
+	     			<input type="text" name="owner" id="owner"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="state" class="col-md-2 col-md-offset-2">车辆状态</label>
+	     			<select id="sid" name="sid"></select>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="number" class="col-md-2 col-md-offset-2">车牌号</label>
+	     			<input type="text" name="number" id="number"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="number" class="col-md-2 col-md-offset-2">保险单号</label>
+	     			<input type="text" name="safeid" id="safeid"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="number" class="col-md-2 col-md-offset-2">送检时间</label>
+	     			<input type="date" name="stime" id="stime"/>
+	     		</div>
+	     		<div class="form-group">
+	     			<label for="number" class="col-md-2 col-md-offset-2">到期提醒</label>
+	     			<input type="date" name="etime" id="etime"/>
+	     		</div>
+	     		
+	     	</form>
+	     </div>
+	     <div class="modal-footer">
+	     	<button class="btn btn-default" data-dismiss="modal">关闭</button>
+	     	<button class="btn btn-default" onclick="sub()">确定</button>
+	     </div>
+	 </div>
+	</div>
+</div>
+</body>
+</html>
+<script src="../js/buslg.js"></script>

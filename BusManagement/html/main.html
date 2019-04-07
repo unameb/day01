@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>公交车管理系统</title>
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../bootstrap-table/bootstrap-table.min.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		
+	</head>
+	<body class="container-fluid">
+		<div class="row bgt">
+			<div class="col-md-10">
+				<h2><img src="../img/001.png" />公交管理系统</h2>
+			</div>
+			<div class="col-md-2 admin">
+				<!--<h4>
+				<span id="year"></span>
+				<span id="month"></span>
+				<span id="dt"></span>
+				<span id="weekday"></span>
+				<span id="time"></span>
+				</h4>-->
+				<a href="javascript:adminSec()"><span class="glyphicon glyphicon-user"></span>admin &nbsp;&nbsp;|</a>
+				<a href="javascript:close()"> &nbsp;&nbsp;<span class="glyphicon glyphicon-off"></span>退出</a>
+			</div>
+		</div>
+		<!------------------------------------------------>
+		<div class="row">
+		<div class="col-md-2 bgl">
+			<div id="menu" class="panel-group">
+				
+			</div>
+		</div>
+		<!------------------------------------------------>
+		<div id="right" class="col-md-10 bgr">
+			
+		</div>
+		</div>
+		
+		<div class="modal" id="adminModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>修改管理员信息</h3>
+					</div>
+					<div class="modal-body">
+						<form id="change">
+							<div class="form-group">
+								<label for="uname" class="col-md-2 col-md-offset-2">用户名</label>
+								<input type="text" name="uname" id="uname"/>
+							</div>
+							<div class="form-group">
+								<label for="upass" class="col-md-2 col-md-offset-2">原密码</label>
+								<input type="password" name="upass" id="upass"/>
+							</div>
+							<div class="form-group">
+								<label for="newpwd" class="col-md-2 col-md-offset-2">新密码</label>
+								<input type="password" name="newpwd" id="newpwd"/>
+							</div> 
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary" onclick="sub()">确定</button>
+						<button class="btn btn-primary"  data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js" ></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="../bootstrap-table/bootstrap-table.min.js" ></script>
+<script type="text/javascript" src="../bootstrap-table/locale/bootstrap-table-zh-CN.min.js" ></script>
+<script type="text/javascript" src="../js/main.js" ></script>
+<!--<script src="../js/time.js"></script>-->

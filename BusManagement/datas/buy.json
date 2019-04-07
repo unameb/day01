@@ -1,0 +1,11 @@
+[
+   {"id":"1032","partName":"公交车车载摄像头","partPrice":"1200","partNum":"10","sumPrice":"12000"},
+   {"id":"802E","partName":"公交车门把手","partPrice":"20","partNum":"20","sumPrice":"400"},
+   {"id":"JS209","partName":"公交车小号螺丝","partPrice":"0.5","partNum":"200","sumPrice":"100"},
+   {"id":"JS30","partName":"公交车雨刷","partPrice":"24","partNum":"15","sumPrice":"360"},
+   {"id":"P233","partName":"公交车垃圾桶","partPrice":"10","partNum":"23","sumPrice":"230"},
+   {"id":"SD890","partName":"公交车座椅","partPrice":"31","partNum":"12","sumPrice":"372"},
+   {"id":"AW234","partName":"公交车吊环","partPrice":"5","partNum":"150","sumPrice":"750"},
+   {"id":"2434E","partName":"MP3公交车报站器","partPrice":"68","partNum":"30","sumPrice":"2040"},
+   {"id":"SI165","partName":"公交车门锁","partPrice":"18","partNum":"30","sumPrice":"540"}
+]

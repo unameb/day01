@@ -1,0 +1,48 @@
+<table id="infoTb" class="table"></table>
+
+<div id="tools" class="btn-group">
+	<button class="btn btn-primary" onclick="addInfo()">添加</button>
+	<button class="btn btn-success" onclick="selectInfo()">修改</button>
+	<button class="btn btn-warning" onclick="delInfo()">删除</button>
+</div>
+<!--模态框-->
+<div class="modal fade" id="infoModal"> 
+    <div class="modal-dialog">
+    	<div class="modal-content">
+    		<div class="modal-header">
+    			<div class="modal-title" id="infoTitle"></div>
+    		</div>
+    		<div class="modal-body" id="infoBody">
+    			<form id="infoForm">
+    				<div class="form-group">
+    					<label for="id" class="col-md-2 col-md-offset-2" >编号</label>
+    					<input type="text" name="id" id="id" />
+    				</div>
+    				<div class="form-group">
+    					<label for="name" class="col-md-2 col-md-offset-2">姓名</label>
+    					<input type="text" name="name" id="name" />
+    				</div>
+    				<div class="form-group">
+    					<label for="sex" class="col-md-2 col-md-offset-2">性别</label>
+    					<input type="radio" name="sex" id="sex" value="0"/>女
+    					<input type="radio" name="sex" id="sex" value="1"/>男
+    				</div>
+    				<div class="form-group">
+    					<label for="age" class="col-md-2 col-md-offset-2">年龄</label>
+    					<input type="text" name="age" id="age" />
+    				</div>
+    				<div class="form-group">
+    					<label for="tel" class="col-md-2 col-md-offset-2">电话</label>
+    					<input type="tel" name="tel" id="tel" />
+    				</div>
+    			</form>
+    		</div>
+    		<div class="modal-footer">
+    			<button class="btn btn-default" data-dismiss="modal">关闭</button>
+    			<button class="btn btn-default" onclick="sub()">确定</button>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+<script src="../js/info.js"></script>
